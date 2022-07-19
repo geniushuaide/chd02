@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>陈怀德</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+      }
+      ** {
+        border: 1px solid black;
+      }
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid grey;
+        font-size: 24px;
+        color: rgb(56, 56, 78);
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!--侧边栏-->
+    <div style="width: 360px" class="baise">
+      <!--头像栏-->
+      <div
+        style="padding: 10px; align-items: center; justify-content: center"
+        class="flex"
+      >
+        <img
+          src="https://ts1.cn.mm.bing.net/th/id/R-C.a030deab4fd55bca909fffa419f61ff7?rik=dvG6RqrgtHt5Dw&riu=http%3a%2f%2fwww.4k4k.com.cn%2f4k4kimg%2fallimg%2f210303%2f152QCZ3-36.png&ehk=pd5ey5HqwDufFXCw6Ms%2fB1B%2fa%2fY3DQq7kW56gHd9itw%3d&risl=&pid=ImgRaw&r=0"
+          width="120px"
+          height="130px"
+          alt="logo"
+        />
+        <div style="margin-left: 10px; font-size: 36px">陈怀德</div>
+      </div>
+      <!--导航栏-->
+      <div class="flex column">
+        <div class="daohang">
+          <a href="homepage.html">主页</a>
+        </div>
+        <div class="daohang">
+          <a href="study.html">学习计划</a>
+        </div>
+        <div class="daohang">
+          <a href="note.html">随心录</a>
+        </div>
+        <div class="daohang">
+          <a href="priva.html">私密</a>
+        </div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div style="height: 130px" class="baise">
+        <div
+          style="
+            padding: 40px;
+            font-size: 56px;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          不畏将来，不忆过往。
+        </div>
+      </div>
+      <!--内容区-->
+      <div class="flex1">
+        <img style="max-width: 100%; overflow: hidden" src="b.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
